@@ -1,0 +1,113 @@
+﻿@charset "utf-8";
+/*----------------------------------------------------
+
+
+	File Name: layout.css
+	Style Info: レイアウト
+
+
+----------------------------------------------------*/
+
+/*----------------------------------------------------
+
+	▼レイアウト
+
+----------------------------------------------------*/
+
+#wapper {
+	min-height: 100%;
+	width: 950px;
+	margin: 0 auto;
+	text-align: center;
+	background: #f9f9f9 url(../images/bg-wrapper.gif) center repeat-y;
+	_display:table;
+	_height:100%;
+	_position: relative;
+}
+#header {
+	width: 950px;
+	height: 38px;
+	background: url(../images/bg-header.gif) repeat-x;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	_position: absolute;
+	_top: expression(eval(document.documentElement.scrollTop+0)); 
+	_left: 0;
+	margin: 0 auto;
+	z-index: 1;
+}
+#header-inner {
+	width: 950px;
+	margin: 0 auto;
+	text-align: right;
+}
+#main {
+	padding-bottom: 100px;
+	overflow:auto;
+	padding-top: 38px;
+}
+#contents {
+	width: 930px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	padding-bottom: 10px;
+}
+#contents.top {
+	width: 950px;
+	padding-left:0px;
+	padding-right:0px;
+}
+#contents-warpper {
+	width: 100%;
+}
+#contents p {
+	margin:0px 5px 15px 5px;
+}
+#contents-left ul, #contents-right ul {
+	margin:0px 5px 10px 5px;
+}
+#contents-right span#office {
+	margin:0px 5px 10px 5px;
+	border-bottom:solid 0.5px #b9b9b9;
+}
+#contents-left {
+	float:left;
+	width: 460px;
+	padding-top: 15px;
+}
+#contents-right {
+	float:right;
+	width: 460px;
+	padding-top: 15px;
+}
+#footer {
+	background-color:#5e5e5e;
+	width: 950px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -100px;
+	clear:both;
+}
+#footer-inner {
+	width: 950px;
+	padding: 10px;
+	text-align:center;
+	margin: 0 auto;
+}
+address {
+	color: #9e9e9e;
+	font-size: 10px;
+}
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}

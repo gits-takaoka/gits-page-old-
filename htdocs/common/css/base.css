@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*----------------------------------------------------
+
+
+	File Name: base.css
+	Style Info: リセット・基本設定
+
+
+----------------------------------------------------*/
+
+
+/*----------------------------------------------------
+
+	▼リセット
+
+----------------------------------------------------*/
+
+html {
+	overflow-y: scroll;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+h1 {
+	position: absolute;
+	top: 0px;
+
+
+
+	/top: 5px;
+	left: 740px;
+	width: 200px;
+	height: 36px;
+	text-indent: -9999px;
+	background: url(../images/logo-small.gif) no-repeat left center;
+}
+h1 a {
+	display: block;
+	width: 200px;
+	height: 30px;
+	text-indent: -9999px;
+}
+h1.top-logo {
+	position: absolute;
+	top: 9px;
+	left: 13px;
+	width: 329px;
+	height: 58px;
+	text-indent: -9999px;
+	background: url(../images/logo.gif) no-repeat left center;
+}
+h2 {
+	width: 930px;
+	height: 24px;
+	text-indent: -9999px;
+	clear: both;
+}
+h2.h2-news {
+	background: url(../images/h2-news.gif) no-repeat left center;
+}
+h2.h2-company {
+	background: url(../images/h2-company.gif) no-repeat left center;
+}
+h2.h2-president-message {
+	background: url(../images/h2-president-message.gif) no-repeat left center;
+}
+h2.h2-products {
+	background: url(../images/h2-products.gif) no-repeat left center;
+}
+h2.h2-sitemap {
+	background: url(../images/h2-sitemap.gif) no-repeat left center;
+}
+h3 {
+	font-size: 13px;
+	font-weight: normal;
+	padding-left: 10px;
+	background: url(../images/bg-h3.gif) left center no-repeat;
+	border-bottom: 1px solid #b9b9b9;
+}
+h4 {
+}
+h5 {
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th {
+	font-weight: normal;
+	text-align: left;
+}
+ol, ul {
+	list-style: none;
+}
+fieldset, img {
+	border: 0;
+}
+/*----------------------------------------------------
+
+	▼基本設定
+
+----------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+* html body {     
+    background: url(null) fixed;     
+}
+html{
+	height: 100%;
+}
+body {
+	height: 100.1%;
+}
+body {
+	background-color:#f9f9f9;
+	font-family: verdana, arial, helvetica, clean, sans-selif;
+	font-size: small;
+	color: #333;
+	line-height: 150%;
+	text-align: center;
+}
+em, strong {
+	font-weight: bold;
+}
+th, td {
+	padding: 3px 8px;
+	border: 1px solid #ccc;
+}
+select option {
+	padding : 0 5px;
+}
+img {
+	vertical-align:bottom;
+	padding: 0;
+	margin: 0;
+}
+img.icon {
+	padding:0 5px 2px 0;
+}
+/*----------リンク----------*/
+
+a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #fff;
+	text-decoration: underline;
+}

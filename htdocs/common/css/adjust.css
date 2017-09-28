@@ -1,0 +1,130 @@
+@charset "utf-8";
+/*----------------------------------------------------
+
+
+	File Name: adjust.css
+	Style Info: 調整用
+
+
+----------------------------------------------------*/
+
+
+/*----------------------------------------------------
+
+	カラム関連
+
+----------------------------------------------------*/
+.clear { clear: both; }
+.clear0 { clear: both; line-height:0px; }
+.clear hr{ display:none; }
+
+.float_left { float: left; }
+.float_right { float: right; }
+
+.float_none { float: none; }
+
+/*----------------------------------------------------
+
+	フォント
+
+----------------------------------------------------*/
+
+.fontcolor_gray { color: #999; }
+.fontcolor_blue { color: #003399; }
+.fontcolor_red { color: #CC0000; }
+.fontcolor_brown { color: #A8802B; }
+
+.fontsize_small { font-size: 90%; }	/*---10px---*/
+.fontsize_large { font-size: 123.1%; }	/*---16px---*/
+
+.fontweight_bold { font-weight: bold; }
+.fontweight_normal { font-weight: normal; }
+
+
+/*----------------------------------------------------
+
+	マージン
+
+----------------------------------------------------*/
+
+.margin_t_20 { margin-top: 20px; }
+.margin_t_15 { margin-top: 15px; }
+.margin_t_10 { margin-top: 10px; }
+.margin_t_5 { margin-top: 5px; }
+.margin_t_0 { margin-top: 0; }
+
+.margin_b_20 { margin-bottom: 20px; }
+.margin_b_15 { margin-bottom: 15px; }
+.margin_b_10 { margin-bottom: 10px; }
+.margin_b_5 { margin-bottom: 5px; }
+.margin_b_0 { margin-bottom: 0; }
+
+.margin_0 { margin: 0; }
+
+.margin_0_auto { margin: 0 auto; }
+
+
+/*----------------------------------------------------
+
+	パディング
+
+----------------------------------------------------*/
+.padding_top_5 {
+	padding-left:5px;
+}
+
+.padding_b_10 {
+	padding-bottom:10px;
+}
+
+.padding_left_10 {
+	padding-left:10px;
+}
+
+/*----------------------------------------------------
+
+	行揃え
+
+----------------------------------------------------*/
+
+.textalign_left { text-align: left; }
+.textalign_center { text-align: center; }
+.textalign_right { text-align: right; }
+
+.verticalalign_top { vertical-align: top; }
+.verticalalign_middle { vertical-align: middle; }
+.verticalalign_bottom { vertical-align: bottom; }
+
+
+/*----------------------------------------------------
+
+	幅
+
+----------------------------------------------------*/
+
+.w_070 { width:70px; }
+.w_100 { width:100px; }
+.w_150 { width:150px; }
+.w_160 { width:160px; }
+.w_190 { width:190px; }
+.w_200 { width:200px; }
+.w_220 { width:220px; }
+.w_250 { width:250px; }
+.w_270 { width:270px; }
+.w_277 { width:277px; }
+.w_280 { width:280px; }
+.w_300 { width:300px; }
+.w_320 { width:320px; }
+.w_330 { width:330px; }
+.w_340 { width:340px; }
+.w_370 { width:370px; }
+.w_390 { width:390px; }
+.w_400 { width:400px; }
+.w_420 { width:420px; }
+.w_460 { width:460px; }
+.w_470 { width:470px; }
+.w_480 { width:480px; }
+.w_500 { width:500px; }
+.w_520 { width:520px; }
+.w_530 { width:530px; }
+.w_715 { width:715px; }

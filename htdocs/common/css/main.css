@@ -1,0 +1,231 @@
+﻿@charset "utf-8";
+/*----------------------------------------------------
+
+
+	File Name: main.css
+	Style Info: コンテンツ設定
+
+
+----------------------------------------------------*/
+
+/*----------------------------------------------------
+
+	ヘッダーナビゲーション
+
+----------------------------------------------------*/
+#top-navi {
+	float: right;
+	/width: 394px;
+}
+#top-navi ul {
+	margin-top: 8px;
+	height: 18px;
+	padding-right: 1px;
+}
+#top-navi li {
+	float: left;
+	display: block;
+	height: 22px;
+	padding: 0px;
+	width: auto;
+	margin: 0px;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 1px;
+	/display: inline;
+}
+#top-navi a {
+	display: inline-block;
+	line-height: 22px;
+	width: auto;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 10px 0 10px;
+}
+#top-navi a:hover {
+	border-bottom: 4px solid #bdbdbd;
+	text-decoration: none;
+	line-height: 22px;
+	height: 22px;
+	color:  #fff;
+}
+#top-navi li span.selected {
+	display: inline-block;
+	border-bottom: 4px solid #e7a516;
+	text-decoration: none;
+	line-height: 22px;
+	height: 22px;
+	padding: 0 10px 0 10px;
+	color: #fff;
+}
+
+/*----------------------------------------------------
+
+	パンくず
+
+----------------------------------------------------*/
+#page-navi {
+	margin-top: 12px;
+}
+#page-navi ul {
+	padding: 0 5px 5px 5xp;
+	margin-bottom: 5px;
+	_margin-bottom: 0;
+}
+#page-navi li {
+	display: inline-block;
+	font-size: 11px;
+	height: 20px;
+	background: url(../images/bg-page-navi.gif) center left no-repeat;
+	padding-left: 12px;
+ 	/display: block;
+ 	/float: left;
+ 	/zoom: 1;
+	/margin-right: 5px;
+}
+#page-navi li:first-child {
+	background: none;
+	padding-left: 0px;
+}
+#contents a:link, #contents a:visited, #contents a:hover, #contents a:active {
+	color: #167839 !important;
+}
+#contents-image {
+	padding-left:1px;
+	_padding-left:0px;
+}
+#contents-image img {
+	_margin-left: 1px;
+}
+#contents-news {
+	width: 930px;
+	margin:0 auto;
+	text-align: left;
+}
+#contents-news .news-textarea {
+	display: inline-block;
+	height: 20px;
+	width: 823px;
+	background-color: #fcfcfc;
+	margin: 0px;
+	line-height: 20px;
+	padding-left: 5px;
+}
+#contents-news .news-textarea dt {
+	background: url(../images/arrow.gif) left center no-repeat;
+	padding-left: 10px;
+	font-weight: bold;
+	display: inline-block;
+	/display: inline;
+}
+#contents-news .news-textarea dd {
+	display: inline-block;
+	/display: inline;
+}
+
+/*----------------------------------------------------
+
+	会社紹介
+
+----------------------------------------------------*/
+.company-name {
+}
+.company-name img {
+	display: block;
+	line-height: 23px;
+	padding-top: 5px;
+}
+
+/*----------------------------------------------------
+
+	代表メッセージ
+
+----------------------------------------------------*/
+#content-massage {
+	padding:10px 0px;
+}
+#content-massage h3 {
+	font-size: 18px;
+	border: none;
+	background: none;
+	margin-bottom: 10px;
+}
+#content-massage p {
+}
+.message-sub-area {
+}
+.message-sub-area .message-inner {
+}
+.president-img-area {
+}
+.president-img-area img {
+	vertical-align: top;
+	float: right;
+}
+
+/*----------------------------------------------------
+
+	製品紹介
+
+----------------------------------------------------*/
+.products-info {
+	padding:15px 0;
+}
+.prodact-detail {
+	padding: 0 0px 5px 0px;
+	margin:0 0 20px 0;
+	border-bottom: 1px solid #e2e2e2;
+}
+.btn-products {
+	display: block;
+	width: 100%;
+	text-align: center;
+
+}
+.btn-products a {
+	display: inline-block;
+	width: 104px;
+	height: 26px;
+	background: url(../images/btn-products.gif) no-repeat;
+}
+.btn-products a:hover {
+	background: url(../images/btn-products-on.gif) no-repeat;
+}
+
+/*----------------------------------------------------
+
+	サイトマップ
+
+----------------------------------------------------*/
+.sitemap-contents {
+	padding: 10px 0;
+}
+
+/*----------------------------------------------------
+
+	フッター
+
+----------------------------------------------------*/
+#footer-navi ul {
+	width: auto;
+ /margn: 0 auto;
+}
+#footer-navi li {
+	display: inline-block;
+	width: auto;
+	line-height: 16px;
+	border-left: 1px solid #fff;
+	padding-left: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-right: 2px;
+	/display: inline;
+}
+#footer-navi li.last {
+	border-left: none;
+}
+#footer-inner p {
+	color: #fff;
+	clear: both;
+	/margin-top: 20px;
+}
