@@ -104,7 +104,7 @@
 }
 #contents-news .news-textarea {
 	display: inline-block;
-	height: 20px;
+	/height: 20px;
 	width: 823px;
 	background-color: #fcfcfc;
 	margin: 0px;
